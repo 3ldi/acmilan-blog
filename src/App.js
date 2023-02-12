@@ -19,7 +19,7 @@ function App() {
             <Route path="/articles" element={<ArticlesListPage />} />
 
             {/* For the single article page we are including an articleId */}
-            <Route path="/article/:articleId" element={<ArticlePage />} />
+            <Route path="/articles/:articleId" element={<ArticlePage />} />
           </Routes>
         </div>
       </div>

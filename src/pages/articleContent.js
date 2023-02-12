@@ -2,7 +2,7 @@
 
 const articles = [
     {
-        name: 'why AC Milan?',
+        name: 'why-AC-Milan?',
         title: "The most amazing team in Italy!",
         content: [
             `Ac Milan is the team tha has conquered most European cups from all the Italian teams. 
@@ -18,7 +18,7 @@ const articles = [
 
     },
     {
-        name: 'Why not Lorem Ipsum?',
+        name: 'Why-not-Lorem-Ipsum?',
         title: 'Lorem Ipsum 1',
         content: [
             `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -49,8 +49,8 @@ const articles = [
         ]
     },
     {
-        name: 'Lorem Ipsum?',
-        title: 'Lorem Ipsum 2',
+        name: 'Lorem-Ipsum-2',
+        title: 'Lorem Ipsum pote',
         content: [
             `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis aliquam ut. 
@@ -80,8 +80,8 @@ const articles = [
         ]
     },
     {
-        name: 'Lorem Ipsum?',
-        title: 'Lorem Ipsum 3',
+        name: 'Lorem-Ipsum-3',
+        title: 'Lorem Ipsumm ked',
         content: [
             `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
             incididunt ut labore et dolore magna aliqua. Sed euismod nisi porta lorem mollis aliquam ut. 
@@ -111,3 +111,5 @@ const articles = [
         ]
     }
 ] 
+
+export default articles;
