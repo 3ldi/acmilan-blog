@@ -2,7 +2,7 @@
 
 const articles = [
     {
-        name: 'why-AC-Milan?',
+        name: 'why-AC-Milan',
         title: "The most amazing team in Italy!",
         content: [
             `Ac Milan is the team tha has conquered most European cups from all the Italian teams. 
@@ -109,7 +109,7 @@ const articles = [
             Amet cursus sit amet dictum sit amet justo donec. In iaculis nunc sed augue lacus. Dictum non consectetur a erat nam 
             at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`,
         ]
-    }
-] 
+    },
+]; 
 
 export default articles;

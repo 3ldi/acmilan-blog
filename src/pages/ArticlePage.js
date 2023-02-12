@@ -1,22 +1,22 @@
-import { useParams } from "react-router-dom";
-import articles from './articleContent'
+import { useParams } from 'react-router-dom';
+import articles from './articleContent';
+import NotFoundPage from './NotFoundPage';
 
-// Create Article Page component
 const ArticlePage = () => {
-    
-    // const params = useParams();
-    // const articleId = params.articleId;
     const { articleId } = useParams();
-    
     const article = articles.find(article => article.name === articleId);
-    
+
+    if (!article) {
+        return <NotFoundPage />
+    }
+
     return (
         <>
-            <h1>{ article.title }</h1>
-                {article.content.map((paragraph, i) => (
-                    <p key={i} >{paragraph}</p>
-                ))}
-        </>    
+        <h1>{article.title}</h1>
+        {article.content.map(paragraph => (
+            <p>{paragraph}</p>
+        ))}
+        </>
     );
 }
 
