@@ -1,13 +1,20 @@
 import { useParams } from "react-router-dom";
+import articles from '../articleContent'
 
 // Create Article Page component
 const ArticlePage = () => {
     
     const params = useParams();
     const articleId = params.articleId;
+    const article = articles.find(article => article.name === articleId);
     
     return (
-        <h1>This is the Article Page for the article with id {articleId}!</h1>
+        <>
+            <h1>{ article.title }</h1>
+                {article.content.map(paragraph => (
+                    <p>{paragraph}</p>
+                ))}
+        </>    
     );
 }
 
