@@ -13,7 +13,7 @@ const articles = [
             Arcu non odio euismod lacinia at. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. 
             Sit amet risus nullam eget felis eget nunc lobortis. Morbi leo urna molestie at. Ipsum dolor sit amet consectetur 
             adipiscing elit duis tristique. Magna sit amet purus gravida quis blandit turpis cursus in. 
-            Dolor purus non enim praesent elementum. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. `
+            Dolor purus non enim praesent elementum. Sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. `,
         ]
 
     },
@@ -45,7 +45,7 @@ const articles = [
             volutpat diam ut venenatis. Aliquam sem fringilla ut morbi tincidunt. Urna neque viverra justo nec ultrices. 
             Nunc mattis enim ut tellus elementum sagittis vitae. Scelerisque eleifend donec pretium vulputate. 
             Amet cursus sit amet dictum sit amet justo donec. In iaculis nunc sed augue lacus. Dictum non consectetur a erat nam 
-            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`
+            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`,
         ]
     },
     {
@@ -76,7 +76,7 @@ const articles = [
             volutpat diam ut venenatis. Aliquam sem fringilla ut morbi tincidunt. Urna neque viverra justo nec ultrices. 
             Nunc mattis enim ut tellus elementum sagittis vitae. Scelerisque eleifend donec pretium vulputate. 
             Amet cursus sit amet dictum sit amet justo donec. In iaculis nunc sed augue lacus. Dictum non consectetur a erat nam 
-            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`
+            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`,
         ]
     },
     {
@@ -107,7 +107,7 @@ const articles = [
             volutpat diam ut venenatis. Aliquam sem fringilla ut morbi tincidunt. Urna neque viverra justo nec ultrices. 
             Nunc mattis enim ut tellus elementum sagittis vitae. Scelerisque eleifend donec pretium vulputate. 
             Amet cursus sit amet dictum sit amet justo donec. In iaculis nunc sed augue lacus. Dictum non consectetur a erat nam 
-            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`
+            at lectus urna. Id neque aliquam vestibulum morbi blandit cursus risus at. Vestibulum lectus mauris ultrices eros.`,
         ]
     }
 ] 
